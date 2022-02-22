@@ -1,0 +1,42 @@
+.main_nos_container {
+    padding-bottom: 35px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main_nos_container img {
+    width: 100%;
+    border-radius: 5%;
+    box-shadow: 0 0 5px black;
+    position: static;   
+}
+
+.main_nos_container .img1 {
+    left: 40px;
+    margin-bottom: 30px;
+}
+.main_nos_container .img2 {
+    bottom: 100px;
+    margin-bottom: 30px;
+}
+.main_nos_container .img3 {
+    bottom: 100px;
+    margin-bottom: 30px;
+}
+
+.main_nos_container .textos {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_nos_container .texto1, .texto2, .texto3, .texto4 {
+    margin-top: 130px; 
+    margin-bottom: 250px;
+    
+}
+
+.main_nos_container .imagenes {
+    width: 70%;
+    margin: 50px;
+}

@@ -1,0 +1,17 @@
+.mainDiv {
+    margin-top: 0px;
+}
+
+.novedad {
+    margin-bottom: 50px;
+}
+
+.novedad_img {
+    margin: 40px;
+    box-shadow: 0 0 5px black;
+    border-radius: 1rem;
+}
+
+.novedadesContainer {
+    min-height: 500px;
+}

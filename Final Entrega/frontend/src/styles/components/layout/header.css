@@ -1,0 +1,36 @@
+.mainHeaderDiv { 
+    background-color: var(--color2);
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.headerDiv {
+    display: flex;
+    align-items: center;
+}
+
+.mainHeaderDiv h1 {
+    color: var(--color1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    display: inline-block;
+    position: relative;
+    padding-left: 50px; 
+}
+
+.mainHeaderDiv .SinTiempo {
+    font-family: 'Roboto', sans-serif;
+}
+
+.homeimg {
+    /* margin-top: 1.5em; */
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 40% 10%;
+    box-shadow: 0 0 10px black;
+}

@@ -1,0 +1,13 @@
+.footer {
+    height:10%; 
+    width: 100%; 
+    background-color: var(--color2);
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}   
+
+.footer_contenido {
+    width: 1000px; 
+    text-align: center;
+}

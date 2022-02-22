@@ -1,0 +1,22 @@
+<div class="container">
+    <h1 style="margin:100px 0" class="center">Acceso Administrador</h1>
+    <div class="row" style="margin:100px 0">
+        
+        <div class="col">
+            <form action="/admin/login" method="post" class="center">
+                <div class="form-group">
+                    <input type="text" class="form-control inputSize center" placeholder="Usuario" name="usuario">
+                </div> <br>
+                <div class="form-group">
+                    <input type="password" class="form-control inputSize center" placeholder="Password" name="password">
+                </div> <br>
+                <button type="submit" class="btn btn-primary center">Entrar</button>
+            {{#if error}}
+                <p class="badUser">Usuario o clave incorrecto.</p>
+            {{/if}}
+            </form>
+            
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,18 @@
+.centerText {
+    text-align: center;
+}
+
+.h1 {
+    font-weight: 700;
+}
+
+.carouselMain {
+    width: 30%;
+    margin: 0 auto;
+}
+
+/* .carouselItem {
+    width: 30%;
+    margin: 0 auto;
+} */
+

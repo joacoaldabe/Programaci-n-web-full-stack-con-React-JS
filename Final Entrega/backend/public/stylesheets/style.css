@@ -1,0 +1,43 @@
+body {
+  padding: 40px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.inputSize {
+  width: 50%;
+}
+
+.badUser {
+  margin-top: 50px;
+  color: red;
+  font-size: larger;
+
+}
+
+.divBody {
+  position: relative;
+  width: 80%;
+  left: 300px;
+  top: -300px;
+}
+
+/*Novedades*/
+.logoutBtn {
+  position: relative;
+  top: -30px;
+}
+
+.lasMorasNov {
+  position: relative;
+  left: 97px;
+  top: 10px;
+}

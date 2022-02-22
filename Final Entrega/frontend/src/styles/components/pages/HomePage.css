@@ -1,0 +1,23 @@
+.main_ind_container h1 {
+    margin: 0;
+}
+
+.mainImg {
+    width: 100%;
+    padding: 0 15px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.mainImg img {
+    width: 100%;
+    border-radius: 5%;
+    box-shadow: 0 0 5px black;
+}
+
+.mainText {
+    width: 50%;
+    padding: 0 10px;
+    display: inline-block;
+    line-height: 1.3;
+}
